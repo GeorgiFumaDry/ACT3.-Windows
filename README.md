@@ -1,5 +1,6 @@
 # ACT3.-Windows
 1. Cambia la velocidad de repetición del teclado a una posición intermedia. Haz una captura.
+
 abrimos el panel de control y buscamos teclado
    
 ![image](https://github.com/user-attachments/assets/4fa56025-1d2d-4448-ac7a-f2050e04503d)
@@ -9,6 +10,7 @@ abrimos el panel de control y buscamos teclado
 ![image](https://github.com/user-attachments/assets/e0f14bcf-9985-4b3e-ba42-fae7c0b2708a)
 
 5. ¿Qué combinación de teclado y ratón hay que utilizar para crear un acceso directo del archivo anterior?
+   
 arrastrando el archivo con la tecla alt pulsada
    
 ![image](https://github.com/user-attachments/assets/79f57b58-7e68-41ff-a64c-24af0fa6645e)
@@ -22,13 +24,30 @@ abrimos opciones del explorador de archivos y elegimos la opcion de un solo clic
 
 9. Configura Windows para que muestre la extensión de todos los archivos. Haz una captura.
 
-10. Muestra adicionalmente la hora de Fiyi. Haz una captura mostrando los dos relojes.
+Abrimos el explorador de archivos y marcamos la casilla Extensiones de nombre de archivo
 
-11. Activa un plan de energía para que el equipo funcione a máximo rendimiento. Haz una captura.
+![image](https://github.com/user-attachments/assets/7f6b6598-b565-4c3b-9d67-6230da3851a7)
 
-12. Ajusta el tamaño del texto de Windows al 115%. Haz una captura.
 
-13. Activa la opción para que al crear una nueva cuenta la contraseña cumpla con los siguientes requisitos:
+11. Muestra adicionalmente la hora de Fiyi. Haz una captura mostrando los dos relojes.
+
+
+
+13. Activa un plan de energía para que el equipo funcione a máximo rendimiento. Haz una captura.
+
+abrimos el panel de control, vamos a opciones de energia y seleccionamos la casilla alto rendimiento
+
+![image](https://github.com/user-attachments/assets/de86b7ca-b1cc-47e0-b5eb-09cc20ed93fb)
+
+
+15. Ajusta el tamaño del texto de Windows al 115%. Haz una captura.
+
+configuracion,sistema,pantalla seleccionas configuracion avanzada de escala y pones 115
+
+![image](https://github.com/user-attachments/assets/ab83c3d7-5209-432b-9252-7c6dd57d098f)
+
+
+17. Activa la opción para que al crear una nueva cuenta la contraseña cumpla con los siguientes requisitos:
 
 · No contener el nombre de cuenta del usuario o partes del nombre completo del usuario en más de dos caracteres consecutivos
 
