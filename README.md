@@ -89,9 +89,24 @@ presionamos Windows+R y escribimos mstsc
 
 16. Cambia el nombre de equipo a Equipode+Tunombre en mi caso, EquipodeAlexandre. Haz una captura.
 
+abre cmd y escribe WMIC computersystem where name="%computername%" call rename name="GeorgiGeorgiev"
+
+![image](https://github.com/user-attachments/assets/f0746b41-25fc-42d7-acb6-fdcc2fcdc48e)
+
 17. Crea un nuevo grupo denominado 2FPB. Haz una captura.
 
+abre cmd y pon net localgroup 2FPB /add
+
+![image](https://github.com/user-attachments/assets/5b98c4eb-7bb2-4c39-8550-e5af26845442)
+
 18. Crea un usuario utilizado la primera inicial de tu nombre+tu apellido, en mi caso alopez. Haz que ese usuario forme parte del grupo 2FPB y del grupo administradores. ¿Qué opción hay que habilitar para que haya que cambiar la contraseña una que un usuario nuevo inicie sesión en Windows por primera vez? Haz capturas donde se vea todo lo que pide.
+
+net user ggeorgiev Contraseña123 /add
+net localgroup 2FPB ggeorgiev /add
+net localgroup Administradores ggeorgiev /add
+wmic useraccount where name='ggeorgiev' set PasswordExpires=True
+
+![image](https://github.com/user-attachments/assets/5b5ece8a-5dc5-4a42-8b72-202ea37db988)
 
 19. Crea una carpeta en el escritorio en el Escritorio denominada carpetade+Tunombre, en mi caso “CarpetadeAlexandre”. Dentro de la carpeta crea un archivo .txt denominado archivode+Tunombre en mi caso archivodeAlexandre.txt. Comparte esta carpeta. Sólo tienen que tener acceso de escritura los usuarios del grupo 2FPB. Haz una captura de pantalla.
 
