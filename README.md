@@ -31,9 +31,7 @@ Abrimos el explorador de archivos y marcamos la casilla Extensiones de nombre de
 
 11. Muestra adicionalmente la hora de Fiyi. Haz una captura mostrando los dos relojes.
 
-Entramos en configuracion y buscamos fecha y hora luego a la derecha deleccionamos "Agregar relojes para zonas horarias diferentes" seleccionamos la casilla mostrar este reloj y ponemos la hora de Fiyi
 
-![image](https://github.com/user-attachments/assets/0a415c93-214a-4737-80cc-e5ece3827c6f)
 
 13. Activa un plan de energía para que el equipo funcione a máximo rendimiento. Haz una captura.
 
@@ -69,19 +67,35 @@ Haz una captura.
 
 10. Desactiva el poder acceder al “cmd” de Windows. Haz una captura
 
-11. Habilita Windows para que pueda recibir y establecer conexiones remotas. Haz una captura
+Abrimos Editor de directivas local vamos a configuracion de usuario,Sistema,Impedir el acceso al simbolo del sistema
 
-12. ¿Qué comando hay que utilizar para forzar la actualización de la configuración de la directiva de grupo?
+![image](https://github.com/user-attachments/assets/b1801c7f-8090-452a-9f4c-ccbac1aee305)
 
-13. ¿Qué comando sirve ejecutar la aplicación “Conexión a escritorio remoto”? Haz una captura.
+12. Habilita Windows para que pueda recibir y establecer conexiones remotas. Haz una captura
 
-14. Cambia el nombre de equipo a Equipode+Tunombre en mi caso, EquipodeAlexandre. Haz una captura.
+Vamos a configuracion,sistema y a Escritorio remoto y activamos la opcion (no sale nada porque estoy usando el windows de mi ordenador)
 
-15. Crea un nuevo grupo denominado 2FPB. Haz una captura.
+![image](https://github.com/user-attachments/assets/4712609b-94be-4b94-acd3-e392ba9da849)
 
-16. Crea un usuario utilizado la primera inicial de tu nombre+tu apellido, en mi caso alopez. Haz que ese usuario forme parte del grupo 2FPB y del grupo administradores. ¿Qué opción hay que habilitar para que haya que cambiar la contraseña una que un usuario nuevo inicie sesión en Windows por primera vez? Haz capturas donde se vea todo lo que pide.
+13. ¿Qué comando hay que utilizar para forzar la actualización de la configuración de la directiva de grupo?
+   
+tienes que poner gpupdate /force  en el cmd
 
-17. Crea una carpeta en el escritorio en el Escritorio denominada carpetade+Tunombre, en mi caso “CarpetadeAlexandre”. Dentro de la carpeta crea un archivo .txt denominado archivode+Tunombre en mi caso archivodeAlexandre.txt. Comparte esta carpeta. Sólo tienen que tener acceso de escritura los usuarios del grupo 2FPB. Haz una captura de pantalla.
+15. ¿Qué comando sirve ejecutar la aplicación “Conexión a escritorio remoto”? Haz una captura.
+
+presionamos Windows+R y escribimos mstsc
+
+![image](https://github.com/user-attachments/assets/00cb4352-6660-4f9d-8d0a-861affb5f997)
+
+16. Cambia el nombre de equipo a Equipode+Tunombre en mi caso, EquipodeAlexandre. Haz una captura.
+
+17. Crea un nuevo grupo denominado 2FPB. Haz una captura.
+
+18. Crea un usuario utilizado la primera inicial de tu nombre+tu apellido, en mi caso alopez. Haz que ese usuario forme parte del grupo 2FPB y del grupo administradores. ¿Qué opción hay que habilitar para que haya que cambiar la contraseña una que un usuario nuevo inicie sesión en Windows por primera vez? Haz capturas donde se vea todo lo que pide.
+
+19. Crea una carpeta en el escritorio en el Escritorio denominada carpetade+Tunombre, en mi caso “CarpetadeAlexandre”. Dentro de la carpeta crea un archivo .txt denominado archivode+Tunombre en mi caso archivodeAlexandre.txt. Comparte esta carpeta. Sólo tienen que tener acceso de escritura los usuarios del grupo 2FPB. Haz una captura de pantalla.
+
+20. Crea una unidad de red utilizando la carpeta creada en el punto anterior. Haz una captura.
 
 18. Crea una unidad de red utilizando la carpeta creada en el punto anterior. Haz una captura.
 
