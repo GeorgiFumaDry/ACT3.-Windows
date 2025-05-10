@@ -31,7 +31,9 @@ Abrimos el explorador de archivos y marcamos la casilla Extensiones de nombre de
 
 11. Muestra adicionalmente la hora de Fiyi. Haz una captura mostrando los dos relojes.
 
+Entramos en configuracion y buscamos fecha y hora luego a la derecha deleccionamos "Agregar relojes para zonas horarias diferentes" seleccionamos la casilla mostrar este reloj y ponemos la hora de Fiyi
 
+![image](https://github.com/user-attachments/assets/0a415c93-214a-4737-80cc-e5ece3827c6f)
 
 13. Activa un plan de energía para que el equipo funcione a máximo rendimiento. Haz una captura.
 
