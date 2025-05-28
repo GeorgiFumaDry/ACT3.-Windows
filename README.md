@@ -55,6 +55,10 @@ configuracion,sistema,pantalla seleccionas configuracion avanzada de escala y po
 
 · Tener una longitud mínima de seis caracteres
 
+Directivas de cuenta,Directivas de contraseñas,Longitud minima de contraseña y ponemos 6
+
+![image](https://github.com/user-attachments/assets/827b3574-fb8c-493e-91c4-1c1b63de04eb)
+
 · Incluir caracteres de tres de las siguientes categorías:
 
 o Mayúsculas (de la A a la Z)
@@ -64,6 +68,10 @@ o Minúsculas (de la a a la z)
 o Dígitos de base 10 (del 0 al 9)
 
 o Caracteres no alfanuméricos (por ejemplo, !, $, #, %)
+
+En la misma pestaña buscamos La contraseña debe cumplir con los requisitos de complejidad
+
+![image](https://github.com/user-attachments/assets/556a450d-d495-4e1a-a633-4b752117a217)
 
 Haz una captura.
 
