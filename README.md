@@ -110,8 +110,17 @@ wmic useraccount where name='ggeorgiev' set PasswordExpires=True
 
 19. Crea una carpeta en el escritorio en el Escritorio denominada carpetade+Tunombre, en mi caso “CarpetadeAlexandre”. Dentro de la carpeta crea un archivo .txt denominado archivode+Tunombre en mi caso archivodeAlexandre.txt. Comparte esta carpeta. Sólo tienen que tener acceso de escritura los usuarios del grupo 2FPB. Haz una captura de pantalla.
 
+![image](https://github.com/user-attachments/assets/40cd1c4b-0368-41d1-a735-cc8ce75f18d5)
+
+
 20. Crea una unidad de red utilizando la carpeta creada en el punto anterior. Haz una captura.
 
-18. Crea una unidad de red utilizando la carpeta creada en el punto anterior. Haz una captura.
+![image](https://github.com/user-attachments/assets/52b43c9b-3c12-4754-af1c-ecc890471daa)
 
-19. Crea una Tarea programada para qué el equipo se apague a las 15:30 del dia 10 de febrero de 2035. Haz una captura donde se vea claramente la hora del sistema y la hora de cuando se apagará la máquina.
+21. Crea una Tarea programada para qué el equipo se apague a las 15:30 del dia 10 de febrero de 2035. Haz una captura donde se vea claramente la hora del sistema y la hora de cuando se apagará la máquina.
+
+Abrimos el programador de tareas ponemos nombre a la tarea luego ponemos la fecha y la hora luego configuramos la accion como “iniciar un programa“ y en programa o script escribimos ”shutdown” y ”/s /f /t 0” en agregar argumentos para quitar cualquier restriccion
+
+![image](https://github.com/user-attachments/assets/4d9f5d99-fe4e-4e81-b1df-2b44ef17fc1c)
+
+![image](https://github.com/user-attachments/assets/d1ffa347-4304-4225-9366-852f6da51ede)
